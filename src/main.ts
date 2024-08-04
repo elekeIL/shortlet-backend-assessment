@@ -21,7 +21,7 @@ async function bootstrap() {
   const port = 3010;
 
   const config = new DocumentBuilder()
-    .setTitle('Countries API')
+    .setTitle('Shortlet Backend Assessment API')
     .setDescription('API integrating data from the REST Countries API')
     .setVersion('1.0')
     .build();

@@ -11,7 +11,7 @@ import { ThrottlerGuard } from '@nestjs/throttler';
 
 @Controller('')
 @UseGuards(ThrottlerGuard)
-@ApiTags('Country')
+@ApiTags('Country-API')
 export class CountriesController {
   constructor(private readonly countriesService: CountriesService) {}
 
