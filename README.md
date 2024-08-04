@@ -62,6 +62,9 @@ $ npm run test
 $ npm run test:cov
 ```
 
+## Swagger Documentation
+To explore the API endpoints and see detailed documentation, navigate to the Swagger UI at http://localhost:3010/api/docs. This interactive interface allows you to test the API endpoints and view the available operations and responses.
+
 ## API Endpoints
 
 
