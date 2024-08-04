@@ -110,4 +110,4 @@ If I had more time, I would consider implementing the following improvements and
 - #### Authentication and Authorization: Add user authentication and authorization to secure the API endpoints.
 - #### More Detailed Statistics: Provide more detailed and complex statistics on countries and regions.
 - #### Extended Filtering Options: Add more filtering options, such as filtering by language or currency.
-- - #### Enhanced Caching: Implement more advanced caching strategies to further improve performance.
+- #### Enhanced Caching: Implement more advanced caching strategies to further improve performance.
