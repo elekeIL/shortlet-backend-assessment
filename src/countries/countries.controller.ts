@@ -85,6 +85,13 @@ export class CountriesController {
     status: 500,
     description:
       'Internal Server Error: An unexpected error occurred on the server.',
+    schema: {
+      example: {
+        message: ['An unexpected error occurred on the server.'],
+        error: 'Internal Server Error',
+        statusCode: 500,
+      },
+    },
   })
   getCountries(
     @Query() searchCountryQuery: CountryQueryDataDto,
@@ -126,6 +133,13 @@ export class CountriesController {
     status: 500,
     description:
       'Internal Server Error: An unexpected error occurred on the server.',
+    schema: {
+      example: {
+        message: ['An unexpected error occurred on the server.'],
+        error: 'Internal Server Error',
+        statusCode: 500,
+      },
+    },
   })
   getCountryByName(
     @Param('name') name: string,
@@ -213,6 +227,13 @@ export class CountriesController {
     status: 500,
     description:
       'Internal Server Error: An unexpected error occurred on the server.',
+    schema: {
+      example: {
+        message: ['An unexpected error occurred on the server.'],
+        error: 'Internal Server Error',
+        statusCode: 500,
+      },
+    },
   })
   getRegions(): Promise<Record<string, RegionDto>> {
     return this.countriesService.getRegions();
@@ -272,6 +293,13 @@ export class CountriesController {
     status: 500,
     description:
       'Internal Server Error: An unexpected error occurred on the server.',
+    schema: {
+      example: {
+        message: ['An unexpected error occurred on the server.'],
+        error: 'Internal Server Error',
+        statusCode: 500,
+      },
+    },
   })
   getLanguages(): Promise<Record<string, LanguageDetailsDto>> {
     return this.countriesService.getLanguages();
@@ -299,6 +327,13 @@ export class CountriesController {
     status: 500,
     description:
       'Internal Server Error: An unexpected error occurred on the server.',
+    schema: {
+      example: {
+        message: ['An unexpected error occurred on the server.'],
+        error: 'Internal Server Error',
+        statusCode: 500,
+      },
+    },
   })
   getStatistics(): Promise<StatsDto> {
     return this.countriesService.getStatistics();

@@ -21,7 +21,7 @@ Before you begin, ensure you have the following installed on your local machine:
 
 ```bash
 $ git clone https://github.com/elekeIL/shortlet-backend-assessment.git
-$ cd rest-countries-api
+$ cd shortlet-backend-assessment
 ```
 2. Install the dependencies:
 
