@@ -1,4 +1,4 @@
-# ---- Shortlet Backend Assessment - README -----
+# ---- Shortlet Backend Assessment  -----
 
 ## Overview
 This project is a REST API built using NestJS and TypeScript that integrates data from the REST Countries API. The design emphasizes robust data handling, secure and scalable API design and performance optimization.

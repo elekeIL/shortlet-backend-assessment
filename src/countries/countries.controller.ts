@@ -258,6 +258,17 @@ export class CountriesController {
     },
   })
   @ApiResponse({
+    status: 400,
+    description: 'Bad Request: The request was invalid or cannot be served.',
+    schema: {
+      example: {
+        message: ['property -- should not exist'],
+        error: 'Bad Request',
+        statusCode: 400,
+      },
+    },
+  })
+  @ApiResponse({
     status: 500,
     description:
       'Internal Server Error: An unexpected error occurred on the server.',
