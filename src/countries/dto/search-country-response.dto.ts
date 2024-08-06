@@ -1,4 +1,3 @@
-import { CountryDto } from './country.dto';
 import { FormatCountryDetailsDto } from './format-country-details.dto';
 
 export interface SearchCountryResponseDto {
